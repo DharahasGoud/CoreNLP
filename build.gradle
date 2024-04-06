@@ -16,7 +16,7 @@ version = '4.5.6'
 // Gradle application plugin
 mainClassName = "edu.stanford.nlp.pipeline.StanfordCoreNLP"
 
-// Jar creation
+// Creation Of Jar
 jar {
     manifest {
         attributes 'Implementation-Title': 'Stanford CoreNLP',
@@ -52,7 +52,7 @@ dependencies {
   testCompile fileTree(dir: 'liblocal', include: '*.jar')
 }
 
-// Eclipse plugin setup
+// The process of Eclipse plugin setup
 eclipse {
   classpath {
     defaultOutputDir = file('bin/')
