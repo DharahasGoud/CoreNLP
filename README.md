@@ -9,6 +9,7 @@
 The Stanford CoreNLP code is written in Java and licensed under the GNU General Public License (v2 or later). Note that this is the full GPL, which allows many free uses, but not its use in proprietary software that you distribute to others.
 
 ### Build Instructions
+### (Procedure to Build)
 
 Several times a year we distribute a new version of the software, which corresponds to a stable commit.
 
@@ -27,6 +28,7 @@ At present, [the current released version of the code](https://stanfordnlp.githu
 -->
 
 #### Build with Ant
+#### (How to build an Ant)
 
 1. Make sure you have Ant installed, details here: [http://ant.apache.org/](http://ant.apache.org/)
 2. Compile the code with this command: `cd CoreNLP ; ant`
@@ -36,6 +38,7 @@ At present, [the current released version of the code](https://stanfordnlp.githu
 6. When using the latest version of the code make sure to download the latest versions of the [corenlp-models](http://nlp.stanford.edu/software/stanford-corenlp-models-current.jar), [english-models](http://nlp.stanford.edu/software/stanford-english-corenlp-models-current.jar), and [english-models-kbp](http://nlp.stanford.edu/software/stanford-english-kbp-corenlp-models-current.jar) and include them in your CLASSPATH.  If you are processing languages other than English, make sure to download the latest version of the models jar for the language you are interested in.
 
 #### Build with Maven
+#### (How to Build with Maven)
 
 1. Make sure you have Maven installed, details here: [https://maven.apache.org/](https://maven.apache.org/)
 2. If you run this command in the CoreNLP directory: `mvn package` , it should run the tests and build this jar file: `CoreNLP/target/stanford-corenlp-4.5.4.jar`
